@@ -31,4 +31,6 @@ ul, li {
 	margin: 10px 0 0 -30px;
 	border-left:2px solid $theme-orange;
 	background: #fff;
+	opacity: .9;
+	z-index: 1000;
 }

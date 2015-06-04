@@ -9,5 +9,31 @@ body {
 
 h1 {
 	font-size: 3em;
-	color: #fff;
 }
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+.charcoal {
+	color: #555;
+}
+
+.orange {
+	color: $theme-orange;
+	display: inline-block;
+}
+
+.col-4 {
+	color: #fff
+}
+
+

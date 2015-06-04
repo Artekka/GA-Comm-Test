@@ -14,14 +14,28 @@ body {
   font-family: "PlayRegular", sans-serif; }
 
 h1 {
-  font-size: 3em;
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1em; }
+
+.charcoal {
+  color: #555; }
+
+.orange {
+  color: #e96213;
+  display: inline-block; }
+
+.col-4 {
   color: #fff; }
 
 /* Header */
-.header-container {
-  width: 900px;
-  margin: 0 auto; }
-
 .logo {
   display: inline-block;
   font-weight: bold;
@@ -56,14 +70,34 @@ ul, li {
   padding: 0;
   margin: 10px 0 0 -30px;
   border-left: 2px solid #e96213;
-  background: #fff; }
+  background: #fff;
+  opacity: .9;
+  z-index: 1000; }
 
 /* Slider */
 .slider {
   background: url("../assets/images/bg-main.jpg");
   background-size: cover;
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 10%; }
+
+.slider-main {
+  padding-bottom: 10%; }
+
+.slider-sub img {
+  max-width: 75px; }
+
+.our-services {
+  background: url("../assets/images/bg-services.jpg");
+  background-size: cover;
+  width: 100%;
+  display: inline-block;
+  padding-top: 10%; }
+
+/* Partners */
+.partners > ul li img {
+  padding-left: 5%; }
 
 /* Body Styles */
 body {
@@ -75,6 +109,10 @@ a {
   text-decoration: none;
   color: #000; }
 
+.container {
+  width: 900px;
+  margin: 0 auto; }
+
 .container-main {
   width: 100%;
   border-top: 5px solid #e96213; }
@@ -82,12 +120,50 @@ a {
 .hidden {
   visibility: hidden; }
 
+.col-2 {
+  width: 40%;
+  margin: 0 5%;
+  float: left; }
+
 .col-4 {
   width: 20%;
-  margin: 0 2.5%; }
+  margin: 0 2.5%;
+  float: left; }
+
+li img {
+  display: inline-block;
+  vertical-align: middle; }
+
+.left {
+  float: left; }
 
 /* Footer */
+footer {
+  background-color: #6f8594; }
+
 label {
   display: block; }
+
+input[type=submit] {
+  background-color: #1bc7a2; }
+
+.follow ul li {
+  float: left; }
+
+.button-normal {
+  background-color: #e96213;
+  opacity: .8;
+  width: 380px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 5px; }
+
+.button-small {
+  background-color: #e96213;
+  opacity: .8;
+  width: 220px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=sass.css.map */

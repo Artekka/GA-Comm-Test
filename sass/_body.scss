@@ -11,6 +11,11 @@ a {
 	color: #000;
 }
 
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
 .container-main {
 	width: 100%;
 	border-top: 5px solid $theme-orange;
@@ -20,7 +25,23 @@ a {
 	visibility: hidden;
 }
 
+.col-2 {
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+}
+
 .col-4 {
 	width: 20%;
 	margin: 0 2.5%;
+	float: left;
+}
+
+li img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.left {
+	float: left;
 }
