@@ -1,0 +1,26 @@
+/* Body Styles */
+
+body {
+	margin: 0;
+	padding: 0;	
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.container-main {
+	width: 100%;
+	border-top: 5px solid $theme-orange;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.col-4 {
+	width: 20%;
+	margin: 0 2.5%;
+}

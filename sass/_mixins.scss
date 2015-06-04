@@ -1,0 +1,13 @@
+/* Web Font Mixins */
+
+@mixin font-face($family, $file) {
+    @font-face {
+		font-family: $family;
+		src: url('#{$paths-font}/#{$file}.eot');
+		src: url('#{$paths-font}/#{$file}.eot#iefix') format('embedded-opentype'),
+			 url('#{$paths-font}/#{$file}.woff2') format('woff2'),
+			 url('#{$paths-font}/#{$file}.woff') format('woff'),
+			 url('#{$paths-font}/#{$file}.ttf') format('truetype'),
+			 url('#{$paths-font}/#{$file}.svg##{$file}') format('svg');
+	}
+}

@@ -1,0 +1,13 @@
+/* Web Fonts & Type */
+
+@include font-face("PlayRegular", PlayRegular);
+@include font-face("RalewayRegular", RalewayRegular);
+
+body {
+	font-family: $play;
+}
+
+h1 {
+	font-size: 3em;
+	color: #fff;
+}
